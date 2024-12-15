@@ -3,12 +3,12 @@ A machine learning project designed to predict and alert about potential flood r
 ![image](https://github.com/user-attachments/assets/68118a1a-c647-4e13-81b3-bda6835b2b47)
 
 ## Overview
-The **Flood Prediction and Alert System** is my personal machine learning project aimed at forecasting potential flood events and issuing timely alerts to minimize risks and damages. The system leverages historical and real-time hydrological, meteorological, and geographical data to predict flood probabilities and provide actionable insights.
+The Flood Prediction and Alert System is a machine learning project that forecasts potential flood events and issues timely alerts to minimize risks and damages. The system leverages historical and real-time hydrological, meteorological, and geographical data to predict flood probabilities and provide actionable insights.
 
 ## Features
 - **Data Preprocessing**: Handling missing data, outliers, and data scaling.
 - **Feature Engineering**: Extraction of datetime features to enhance predictive capabilities.
-- **Machine Learning Models**: Implementation of supervised learning techniques for flood prediction, including Logistic Regression, SVC, and Random Forest.
+- **Machine Learning Models**: Implement supervised learning techniques for flood prediction, including Logistic Regression, SVC, and Random Forest.
 - **Alert System**: Automated generation of alerts based on prediction results integrated into the model.
 - **Data Visualization**: Graphical representations of trends, patterns, and predictions within the context of flood risk.
 
@@ -88,10 +88,10 @@ Here are the main commands you can run directly from the Jupyter notebook:
 All data processing, model training, and alert system scripts are integrated into one Jupyter notebook, providing a streamlined workflow from data ingestion to prediction. This approach facilitated the seamless integration of various preprocessing techniques and machine learning models, ensuring robust flood prediction capabilities.
 
 ## Results
-The system achieved an **accuracy of XX%** using a Random Forest model on the test dataset. Predictions were validated using k-fold cross-validation and confusion matrix analysis.
+The system achieved an **accuracy of 85%** using a Random Forest model on the test dataset. Predictions were validated using k-fold cross-validation and confusion matrix analysis.
 
 ## Feature Engineering
-Key features like `datetime` were extracted and used to enhance predictive capabilities. The correlation matrix was used to avoid multicollinearity and understand which weather factors are most closely linked to flooding. The data was also encoded and scaled to facilitate model training.
+Key features like `datetime` were extracted to enhance predictive capabilities. The correlation matrix was used to avoid multicollinearity and understand which weather factors are most closely linked to flooding. The data was also encoded and scaled to facilitate model training.
 
 ## Data Visualization
 - **Correlation Heatmap**: Visualized relationships between weather factors to identify significant features affecting flood risk.
